@@ -1,6 +1,5 @@
 package com.tanjotp.kotlinvideoapp
 
-import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
@@ -42,8 +41,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-class HomeFeed(val videos: List<Video>)
-
-class Video(val id: Int, val name: String, val link: String, val imageUrl: String, val numberOfViews: Int, val channel: Channel)
-
-class Channel(val name: String, val profileImageUrl: String)
